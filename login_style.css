@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    background-color: #BED7DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+
+button{
+    padding: 15px 50px;
+    background-color: #102c57;
+    color: #ddd;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+
+}
+input[type="email"]{
+
+   
+    border-radius: 15px;
+    padding: 5px;
+
+}
+input[type="Text"]{
+
+    border-radius: 15px;
+    padding: 5px;
+}
+input[type="Password"]{
+   
+    border-radius: 15px;
+    padding: 5px;
+
+}
+#nuevo{
+    margin: 10px;
+    padding: 15px 50px;
+    background-color: #154ea3;
+    color: #ddd;
+    border: none;
+    border-radius: 25px;
+    font-size: 10px;
+}

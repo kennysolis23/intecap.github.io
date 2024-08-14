@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <main>
+
+    <section class="container">
+        <header>Formulario de Registro</header>
+        <form action="#" class="form">
+            
+            <div class="input-box">
+                <label>Nombre completo</label>
+                <input id="d1" type="text" placeholder="ingrese nombre completo" required/>
+            </div>
+            <br>
+            <div class="input-box">
+                <label>Correo Electronico</label>
+                <input id="d2" type="text" placeholder="ingrese correo Electronico completo" required/>
+            </div>
+            <br>
+            <div class="column">
+            <div class="input-box">
+                <label>Numero De telefono</label>
+                <input id="d3" type="number" placeholder="ingrese Numero de telefono completo" required/>
+            </div>
+            
+            <div class="input-box">
+                <label>Fecha De Nacimiento</label>
+                <input id="d4" type="date" placeholder="ingrese Fecha de cumpleaños" required/>
+            </div>
+            
+        </div>
+        
+        
+        <div class="gender-box">
+            <h3>Genero</h3>
+            <div class="genero-option">
+                <div class="genero">
+                    <input type="radio" id="check-hombre" name="Genero" value="Hombre" />
+                    <label for="check-hombre">Hombre</label>
+                </div>
+                <div class="genero">
+                    <input type="radio" id="check-mujer" name="Genero" value="Mujer"/>
+                    <label for="check-mujer">Mujer</label>
+                </div>
+                <div class="genero">
+                    <input type="radio" id="check-otro" name="Genero" value="Prefiero no decir" checked/>
+                    <label for="check-otro">Prefiero no decir </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="input-box">
+            <label> Direcciones </label>
+            <input id="d6" type="text" placeholder="ingrese su Direccion " required/>
+            <input id="d7" type="text" placeholder="ingrese su Direccion 2 " >
+            <div class="column">
+                <div class="select-box">
+                    <select id="d8">
+                        <option hidden>Pais</option>
+                        <option>America</option>
+                        <option>Japon</option>
+                        <option>India</option>
+                        <option>Nepal</option>
+                        <option>Guatemala</option>
+                        <option>Brazil</option>
+                        <option>Argentina</option>
+                        <option>Colombia</option>
+                    </select>
+                </div>
+                <input id="d9" type="text" placeholder="ingrese su ciudad " required/>
+            </div>
+
+
+           
+            <input id="d10" type="text" placeholder="ingrese su region " required/>
+            <input id="d11" type="number" placeholder="ingrese su codigo postal " required/>
+           
+            
+
+        </div>
+
+        <button onclick="capturar()">Enviar</button>
+        <button onclick="mostrar()">Descargar PDF</button>
+        <button id="back" onclick="inicio()">Volver al Inicio</button>
+        
+        </form>
+    </section>
+    </main>
+   
+    <script type="text/javascript" src="../javascript/jspdf.min.js"></script>
+   
+
+    <script type="text/javascript" src="../javascript/script.js"></script>
+</body>
+</html>
